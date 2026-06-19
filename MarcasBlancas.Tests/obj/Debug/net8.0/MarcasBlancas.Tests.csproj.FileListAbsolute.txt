@@ -104,3 +104,4 @@ C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas.Tests\obj\Debug\net8.0\refint\
 C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas.Tests\obj\Debug\net8.0\MarcasBlancas.Tests.pdb
 C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas.Tests\obj\Debug\net8.0\MarcasBlancas.Tests.genruntimeconfig.cache
 C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas.Tests\obj\Debug\net8.0\ref\MarcasBlancas.Tests.dll
+C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas.Tests\obj\Debug\net8.0\MarcasBlancas.Tests.sourcelink.json

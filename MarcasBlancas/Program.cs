@@ -10,8 +10,8 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 
-// Configura app con MapDefaultControllerRoute()
-app.MapDefaultControllerRoute();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Producto}/{action=Index}/{id?}");
 
-// Configura app con Run()
 app.Run();

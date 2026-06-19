@@ -1,0 +1,5 @@
+C:\Users\Leonardo\Desktop\RojasAbel\publish\MarcasBlancas.exe
+C:\Users\Leonardo\Desktop\RojasAbel\publish\MarcasBlancas.dll
+C:\Users\Leonardo\Desktop\RojasAbel\publish\MarcasBlancas.deps.json
+C:\Users\Leonardo\Desktop\RojasAbel\publish\MarcasBlancas.runtimeconfig.json
+C:\Users\Leonardo\Desktop\RojasAbel\publish\MarcasBlancas.pdb

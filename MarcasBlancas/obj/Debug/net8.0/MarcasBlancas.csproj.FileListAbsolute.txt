@@ -26,3 +26,4 @@ C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas\obj\Debug\net8.0\refint\Marcas
 C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas\obj\Debug\net8.0\MarcasBlancas.pdb
 C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas\obj\Debug\net8.0\MarcasBlancas.genruntimeconfig.cache
 C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas\obj\Debug\net8.0\ref\MarcasBlancas.dll
+C:\Users\Leonardo\Desktop\RojasAbel\MarcasBlancas\obj\Debug\net8.0\MarcasBlancas.sourcelink.json
