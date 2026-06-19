@@ -1,0 +1,67 @@
+@model IEnumerable<MarcasBlancas.Models.Producto>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Comparador de Marcas Blancas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 40px;
+            color: #333;
+        }
+        h1 {
+            color: #111;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 10px;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr.marca-blanca {
+            background-color: #ffffe0; /* Amarillo claro */
+        }
+    </style>
+</head>
+<body>
+    <h1>Comparador de Marcas Blancas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Marca</th>
+                <th>Categoría</th>
+                <th>Precio</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="@(item.EsMarcaBlanca ? "marca-blanca" : "")">
+                    <td>@item.Id</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.Marca</td>
+                    <td>@item.Categoria</td>
+                    <td>S/ @item.Precio.ToString("0.00")</td>
+                    <td>@(item.EsMarcaBlanca ? "Marca Blanca" : "Marca Tradicional")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
